@@ -1,0 +1,81 @@
+/*-------------------------Font----------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+
+/*-------------------------Tags----------------------*/
+
+body {
+    background-image: url(images/texture.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    align-content: center;
+    text-align: center;  
+    /* background-color: rgba(255, 0, 0, 1); */
+}
+
+h1 {
+    font-family: 'Comfortaa', cursive;
+}
+
+h2, h5, li, p, label {
+    font-family: 'Comfortaa', cursive;
+    color: #FFF;
+}
+
+
+
+/*-------------------------ID-tags----------------------*/
+
+/*image-sizing*/
+#thumb {
+    width: 60%;
+    padding-bottom: 20px;
+}
+
+#icons {
+    color: #FFF;
+}
+
+#college {
+    padding-top: 20px;
+}
+
+#header-img{
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40px;
+}
+
+/* for the thumbnail */
+#college-t { 
+    padding-top: 40px;
+    height: 600px;
+}
+
+/* paragraph in jumbotron */
+#jum-p {
+    font-family: 'Comfortaa', cursive;
+    color: #000;
+}
+
+
+ /*-------------------------Classes----------------------*/
+ /* .jumbotron {
+    font-family: 'Comfortaa', cursive;
+    color: black;
+ } */
+
+ .carousel-inner img {
+    margin: 0;
+    padding: 0;
+    width: 1080px;
+    height: 500px;
+ }
+
+ /*top padding so it doesnt sit behind header*/
+.thumbnail {
+    padding-top: 40px;
+    background: rgba(255, 172, 172, 0.9);
+    height: 500px;
+}
